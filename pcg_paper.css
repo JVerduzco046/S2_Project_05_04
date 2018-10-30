@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/* 
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: Juan Verduzco
+   Date:   10/26/2018
+
+   Filename:         pcg_paper.css
+   Supporting Files: 
+ */
+/* * {
+  border: 1px solid red;
+} */
+
+
+html {
+  background-color: #c6a573;
+}
+
+/* body */
+
+
+body {
+  max-width: 960px;
+  min-width: 640px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d6b879;
+}
+
+header img {
+  width: 100%;
+}
+
+.hnav a {
+  display: block;
+  width: 12.5%;
+  float: left;
+  background-color: lightblue;
+  text-align: center;
+}
+
+
+
+footer {
+  text-align: center;
+}
+
+
+.vcol {
+  clear: both;
+}
+
+.vcol li {
+  list-style-type: none;
+}
+
+#vcol1 ul {
+  width: 20%;
+  float: left;
+}
+
+#vcol2 ul {
+  width: 20%;
+  float: left;
+}
+
+#vcol3 ul {
+  width: 20%;
+  float: left;
+}
+
+#vcol4 ul {
+  width: 20%;
+  float: left;
+}
+
+#vcol5 ul {
+  widows: 20%;
+  float: left;
+}
+
+.vcol a {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-decoration: none;
+}
+
+.vcol::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+#hcol2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.story {
+  display: block;
+}
+
+.story p {
+  padding: 5px 5px 5px 5px;
+}
+
+.story h1 {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#story1 {
+  width: 50%;
+  float: left;
+}
+
+#story2 {
+  width: 50%;
+  float: left;
+}
+
+#story3 {
+  width: 50%;
+  float: left;
+  clear: left;
+}
+
+#story4 {
+  width: 50%;
+  float: left;
+}
