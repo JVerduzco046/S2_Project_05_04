@@ -18,7 +18,12 @@
 
 
 html {
-  background-color: #c6a573;
+  background: #b39e81;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #e7bd86, #a39178);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #e7bd86, #a39178);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* body */
@@ -30,7 +35,7 @@ body {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #d6b879;
+  background-color: #e0b070;
 }
 
 header img {
@@ -41,8 +46,8 @@ header img {
   display: block;
   width: 12.5%;
   float: left;
-  background-color: lightblue;
   text-align: center;
+  padding: 10px 0px;
 }
 
 
@@ -51,6 +56,8 @@ footer {
   text-align: center;
 }
 
+
+/* Layout */
 
 .vcol {
   clear: both;
@@ -107,12 +114,14 @@ footer {
 }
 
 .story p {
-  padding: 5px 5px 5px 5px;
+  padding: 10px 15px;
+  font-size: 1.1em;
 }
 
 .story h1 {
   text-align: center;
   font-size: 1.3em;
+  padding: 10px 10px;
 }
 
 #story1 {
@@ -134,4 +143,30 @@ footer {
 #story4 {
   width: 50%;
   float: left;
+}
+
+figure {
+  display: block;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+
+}
+
+/* Colors */
+
+a {
+  color: rgb(185, 63, 63);
+}
+
+a:link,
+a:active {}
+
+a:hover {
+  color: rgb(143, 50, 50)
 }
