@@ -111,6 +111,7 @@ footer {
 
 .story {
   display: block;
+  margin: 10px 10px;
 }
 
 .story p {
@@ -161,12 +162,23 @@ figure img {
 /* Colors */
 
 a {
-  color: rgb(185, 63, 63);
+  color: rgb(255, 255, 255);
 }
 
-a:link,
-a:active {}
 
 a:hover {
   color: rgb(143, 50, 50)
+}
+
+#hcol2 {
+  background-color: beige;
+}
+
+
+
+#ol li {
+  padding: 1.1em;
+  list-style: upper-roman;
+  list-style-position: inside;
+  font-size: 1.1em;
 }
